@@ -1,0 +1,10 @@
+// Random explanations of things i need to Recall
+
+-- PxCanvasConfig.PxSixe = Just how big on screen we want the pixels. E.g if we set PxSixe to one then it will 
+be an actual screen pixel size, but two would be x2 of an actual pixel size
+
+-- On the fyne toolkit in order to create something that you can click on, you have to implement the 
+Widget interface. E.g we are using it to create our swatch. The swatch it's pretty much just a square 
+you can click and it changes color.
+
+-- To create the functionality for handling mouse events, we had to implement the Mouseable interface
