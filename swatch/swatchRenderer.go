@@ -14,7 +14,7 @@ type SwatchRenderer struct {
 }
 
 func (renderer *SwatchRenderer) MinSize() fyne.Size {
-	return renderer.parent.MinSize()
+	return renderer.square.MinSize()
 }
 
 // Layout function determines where in the layout that the swatch would be placed
